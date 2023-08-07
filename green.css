@@ -1,0 +1,51 @@
+QPushButton {{
+  color: #f5f5f5;
+  text-transform: none;
+  background-color: #54d416;
+  border-color: #54d416;
+  font-family:Khmer UI;
+  border-radius: 4px;
+}}
+
+QPushButton:hover:!pressed {{
+  background-color:#54d416;
+  border-color: #4bb916;
+}}
+
+QPushButton:pressed{{
+  background-color:#54d416;
+  border-color: #4bb916;
+}}
+
+QPushButton:disabled {{
+  background-color: #999b99;
+  border-color: #999b99;
+}}
+
+QProgressBar{{
+  border-radius: 4px;
+}}
+
+QProgressBar::chunk {{
+  background-color: #79ed40;
+  border-radius: 4px;
+}}
+
+QLineEdit {{
+  font-family:Khmer UI;
+  color: #000000;
+  border-radius: 4px;
+}}
+
+QLineEdit:disabled {{
+  color: #000000;
+  border-radius: 4px;
+}}
+
+QLabel{{
+  font-family:Khmer UI;
+}}
+
+QTableView{{
+  font-family:Khmer UI;  
+}}
